@@ -1,0 +1,31 @@
+Comparison
+
+********************************LRU vs FIFO*****************************
+
+FIFO:
+
+First In First Out (FIFO) –
+This is the simplest page replacement algorithm. In this algorithm, the operating system keeps track of all pages in the memory in a queue, the oldest page is in the front of the queue. When a page needs to be replaced page in the front of the queue is selected for removal.
+
+1. Number of page fault is more than LRU and optimal.
+
+2. Suffer from belady’s anomaly.
+
+3. Simple to implement.
+
+
+
+LRU:
+
+Least Recently Used –
+In this algorithm page will be replaced which is least recently used.
+
+1. Number of page fault is more than optimal and less than FIFO.
+
+2. Does not suffer from belady’s anomaly.
+
+3. Considered to be good.
+
+
+Belady’s Anomaly:
+Generally, on increasing the number of frames to a process’ virtual memory, its execution becomes faster as less number of page faults occur. Sometimes the reverse happens, i.e. more number of page faults occur when more frames are allocated to a process. This most unexpected result is termed as Belady’s Anomaly.

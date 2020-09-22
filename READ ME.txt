@@ -1,0 +1,17 @@
+READ ME 
+
+Step I. Open the "Program Files".
+
+Step II. Open "p1_poothi.py" file and run it. (Please run in a Python IDE/editor)
+
+Step III. It'll prompt to browse the files to upload.
+
+Step IV. Select "LRU.py" and "FIFO.py" files and then click on compare.
+
+Step V. We can see the results both in console and in new windows (as I performed visualization using python packages).
+
+Step VI. I also include 2 files viz. "1000.txt" and "10000.txt", so that we can alter the input for "LRU.py" and "FIFO.py" (In driver code) and run "p1_poothi.py" again for modified results.
+
+Step VII. "Results" folder has all the outputs/results related to the comparision of the two algorithms.
+
+Note: You can also use the "P1_Poothi.py" and upload any other two algorithms apart from submitted by me and it will retrive the information and displays it.
